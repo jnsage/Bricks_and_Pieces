@@ -129,9 +129,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#API Keys
+#Custom
 keys.py
 rebrick.py
 brickset.py
-
+set_list.csv
 share/
