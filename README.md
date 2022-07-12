@@ -1,10 +1,12 @@
 # [Untitled Lego Project](https://github.com/jnsage/LegoProject) 
 
-As a collector of LEGO sets, I am interested in examining data pulled from 2 LEGO Collection websites: Brickset and Rebrickable. Based on the data available, I wanted to explore these questions:
+As a collector of LEGO sets, I am interested in examining data pulled from 2 LEGO Collection websites: Brickset and Rebrickable. I wanted to explore these questions:
 
 1) Does a higher number of pieces in a LEGO set guarantee a higher user rating on Brickset?
 2) For Star Wars-themed LEGO sets, does the popularity of a specific Star Wars property correlate to the customer rating of sets for that property?
 3) Could I find the most common part in the Star Wars set that has the most pieces?
+
+This project reads in data, cleans up and merges data where necessary, then saves the resulting data to a .csv file. The resulting file is then used to create a Tableau dashboard.
 
 # Data used in Untitled Lego Project
 Data sources: 
@@ -63,6 +65,9 @@ python [unnamed main script].py
 - Category 4 - Best Practices
     - Utilize a virtual environment and include instructions in the README on how to set one up.
     - Lists dependencies in a requirement.txt file.
+
+# Changes from Proposal
+- Original question of examining possible relationship between Brickset rating and the age ratings for LEGO sets was eliminated. There were too many missing values for the minimum and maximum age ranges of LEGO sets.
  
 
 
