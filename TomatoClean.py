@@ -58,52 +58,7 @@ year_df.drop(index=9, inplace=True)
 
 sw_df = pd.read_csv('sw_set_list.csv')
 
-# Drop unneeded columns from the dataframe
-# drop_list = [
-#             'numberVariant',
-#             'released',
-#             'category',
-#             'bricksetURL',
-#             'reviewCount',
-#             'packagingType',
-#             'availability',
-#             'instructionsCount',
-#             'additionalImageCount',
-#             'lastUpdated',
-#             'image.thumbnailURL',
-#             'image.imageURL',
-#             'collections.ownedBy',
-#             'collections.wantedBy',
-#             'dimensions.height',
-#             'dimensions.width',
-#             'dimensions.depth',
-#             'LEGOCom.US.retailPrice',
-#             'LEGOCom.US.dateFirstAvailable',
-#             'LEGOCom.US.dateLastAvailable',
-#             'LEGOCom.UK.retailPrice',
-#             'LEGOCom.UK.dateFirstAvailable',
-#             'LEGOCom.UK.dateLastAvailable',
-#             'LEGOCom.CA.retailPrice',
-#             'LEGOCom.CA.dateFirstAvailable',
-#             'LEGOCom.CA.dateLastAvailable',
-#             'dimensions.weight',
-#             'barcode.EAN',
-#             'barcode.UPC',
-#             'minifigs',
-#             'LEGOCom.DE.retailPrice',
-#             'LEGOCom.DE.dateFirstAvailable',
-#             'LEGOCom.DE.dateLastAvailable'
-#             ]
-#sw_df.drop(columns=drop_list, inplace=True)
-
 drop_columns(sw_df)
-
-# sw_df['subtheme'].replace(to_replace={'Episode I' : 'The Phantom Menace', 
-#                                        'Episode II' : 'Attack of the Clones', 
-#                                        'Episode III' : 'Revenge of the Sith', 
-#                                        'Episode IV' : 'A New Hope', 
-#                                        'Episode V' : 'The Empire Strikes Back',
-#                                        'Episode VI' : 'Return of the Jedi'}, inplace=True)
 
 
 # Replace certain values with values matching first data frame
@@ -136,4 +91,4 @@ agg_df = pd.concat([lego_set_count, rating_avg], axis=1)
 # Create third data frame that is a combination of the first two cleaned dataframes, based on subtheme
 merged_df = year_df.merge(agg_df, how='left', left_on='Title', right_on='subtheme')
 
-
+merged_df.to_csv('./sw_set_list2.csv')

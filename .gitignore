@@ -136,3 +136,6 @@ brickset.py
 set_list.csv
 sw_set_list.csv
 share/
+*.csv.gz
+GZtoCSV.py
+*.csv
