@@ -139,3 +139,4 @@ share/
 *.csv.gz
 GZtoCSV.py
 *.csv
+*.jpg
