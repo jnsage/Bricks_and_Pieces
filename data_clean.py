@@ -39,6 +39,3 @@ def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
                 ]
     df.drop(columns=drop_list, inplace=True)
 
-def convert_to_int(column: pd.Series) -> pd.Series:
-    column = column.astype(pd.Int64Dtype())
-    return column
