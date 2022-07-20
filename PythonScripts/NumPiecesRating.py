@@ -67,5 +67,5 @@ set_df.rename(columns=rename_dict, inplace=True)
 set_df = set_df.sample(100)
 
 # Save data to CSV for visualization in Tableau
-set_df.to_csv('../CSVs/theme_sample_set_list.csv')
+set_df.to_csv('./CSVs/theme_sample_set_list.csv')
 
