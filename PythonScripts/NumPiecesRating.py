@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
-from keys import KEY_TWO
-from data_clean import drop_columns
+from PythonScripts.keys import KEY_TWO
+from PythonScripts.data_clean import drop_columns
 
 # API Call to get list of LEGO themes and convert to dataframe
 themes = requests.get(f'https://brickset.com/api/v3.asmx/getThemes?apiKey={KEY_TWO}') 

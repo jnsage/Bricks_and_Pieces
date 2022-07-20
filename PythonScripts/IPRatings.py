@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
-from keys import KEY_TWO
-from data_clean import drop_columns
+from PythonScripts.keys import KEY_TWO
+from PythonScripts.data_clean import drop_columns
 
 
 # Configure URL for pd.read_csv
@@ -84,4 +84,4 @@ agg_df = pd.concat([lego_set_count, rating_avg], axis=1)
 # Create third data frame that is a combination of the first two cleaned dataframes, based on subtheme
 merged_df = year_df.merge(agg_df, how='left', left_on='Title', right_on='subtheme')
 
-merged_df.to_csv('./CSVs/sw_set_list.csv')
+merged_df.to_csv('./CSVs/star_wars_set_list.csv')
