@@ -1,0 +1,18 @@
+,Title,Is_Movie,Is_TV,Release_Date,Tomatometer,number,rating
+0,Episode IV,Y,N,1977,93%,49,4.0
+1,Episode V,Y,N,1980,94%,43,4.04
+2,Episode VI,Y,N,1983,83%,41,3.93
+3,Episode I,Y,N,1999,51%,40,3.86
+4,Episode II,Y,N,2002,66%,20,4.08
+5,Episode III,Y,N,2005,79%,48,4.02
+6,Episode VII,Y,N,2015,93%,26,3.79
+7,Episode VIII,Y,N,2017,91%,17,3.79
+8,Episode IX,Y,N,2019,52%,11,3.96
+9,Rogue One,Y,N,2016,84%,12,4.12
+10,Solo,Y,N,2018,69%,12,3.89
+11,The Bad Batch,N,Y,2021,85%,1,4.1
+12,Resistance,N,Y,2018,92%,2,4.0
+13,Rebels,N,Y,2014,98%,17,3.92
+14,The Clone Wars,N,Y,2008,93%,78,3.93
+15,The Mandalorian,N,Y,2019,93%,10,4.17
+16,The Book of Boba Fett,N,Y,2021,66%,2,4.0
