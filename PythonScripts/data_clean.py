@@ -1,6 +1,8 @@
+# Helper script for functions that may be used across 2 or more notebooks
+
 import pandas as pd
 
-# List of columns to drop. Columns are not used in this project. 
+# List of columns to drop. Columns are not used in this project. Used in NumPiecesRating and IPRatings
 def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
     drop_list = [
              'numberVariant',

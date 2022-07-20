@@ -34,13 +34,19 @@ git clone git@github.com:jnsage/LegoProject.git
 ```
 2) Navigate to the Untitled Lego Project directory.
 
-3) Create and a virtual environment with venv or other environment of your choosing
+3) Create and a virtual environment 
 ```
-python -m venv
+python -m venv venv
 ```
-4) Activate your environment
+4) Activate your environment 
+
+Windows:
 ```
-[activate instructions]
+ . venv/Scripts/activate
+```
+ Mac/Linux:
+```
+source venv/bin/activate
 ```
 5) Use pip to install system requirements:
 ```
