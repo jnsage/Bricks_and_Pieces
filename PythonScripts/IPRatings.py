@@ -7,7 +7,7 @@ from PythonScripts.data_clean import drop_columns
 # Configure URL for pd.read_csv
 # Full sheet URL == https://docs.google.com/spreadsheets/d/1xw7y9yawF6i35BTfP9M1uUawJvwpacz01Xq4MEZszBs/edit#gid=0
 workbook_id = "1xw7y9yawF6i35BTfP9M1uUawJvwpacz01Xq4MEZszBs"
-sheet_name = "Sheet1"
+sheet_name = "Tomato"
 url = f"https://docs.google.com/spreadsheets/d/{workbook_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 
 

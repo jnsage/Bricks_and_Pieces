@@ -139,3 +139,5 @@ share/
 *.jpg
 /GZIPS
 /JPGs
+top_ten_parts_copy.csv
+TopTenParts copy.ipynb
