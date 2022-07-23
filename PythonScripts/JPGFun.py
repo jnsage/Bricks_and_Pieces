@@ -3,6 +3,7 @@ import os
 import requests
 from PIL import Image
 from pathlib import Path
+import pandas as pd
 
 # Define the JPG Path
 def jpg_path():
@@ -29,7 +30,32 @@ def resize_files(directory: str):
             im = Image.open(filename.path)
             im = im.resize((32, 32))
             im.save(filename.path)
-            
+
+def make_list():
+    top_ten_df = pd.read_csv('top_ten_parts.csv')
+    part_num_list =[]
+    part_color_list = []
+
+    for item in top_ten_df['part_num']:
+        part_num_list.append(item)
+    for item in top_ten_df['color_id']:
+        part_color_list.append(str(item))
+
+    # Zip to tuple to lock in for API calls
+    num_color_zip = zip(part_num_list,part_color_list)
+
+    url_list = []
+    for num, color in num_color_zip:
+        response = requests.get(f'https://rebrickable.com/api/v3/lego/parts/{num}/colors/{color}?key={KEY_ONE}')
+        data = response.json()
+        url_list.append(str(data['part_img_url']))
+    return url_list    
+
+
+def main():
+    make_list()
+    path = jpg_path()
+    write_image(url_list, path)     
 
 if __name__ == "__main__":
     main()      
