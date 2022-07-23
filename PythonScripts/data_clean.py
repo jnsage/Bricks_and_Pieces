@@ -43,20 +43,12 @@ def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
     df.drop(columns=drop_list, inplace=True)
 
 # Write a file to the CSV folder
-def write_csv(file: str):
-    parent_path = Path.cwd().parent.absolute()
-    csv_folder = Path('CSVs')
-    large_path = Path.joinpath(parent_path,csv_folder,file).absolute()
-    return large_path
+def csv_path(file: str):
+   parent_path = Path.cwd().absolute()
+   csv_folder = Path('CSVs')
+   large_path = Path.joinpath(parent_path,csv_folder,file).absolute()
+   return large_path
 
-def generate_csv_path(file: str):
-    file_name = file
-    path = Path(file_name)
-    parent_path = path.parent.absolute().parent
-    data_folder = Path('CSVs')
-    large_path = Path.joinpath(parent_path,data_folder)
-    full_path = large_path.joinpath(file_name)
-    return full_path
-    
+
 if __name__ == "__main__":
     main()      
