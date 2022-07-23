@@ -3,13 +3,13 @@
 As a collector of LEGO sets, I am interested in examining data pulled from 2 LEGO Collection websites: Brickset and Rebrickable. I wanted to explore these questions:
 
 1) Does a higher number of pieces in a LEGO set guarantee a higher user rating on Brickset?
-2) For Star Wars-themed LEGO sets, does the popularity of a specific Star Wars property correlate to the customer rating of sets for that property?
-3) Could I find the most common part in the Star Wars set that has the most pieces?
+2) For Star Wars-themed LEGO sets, does the popularity of a specific Star Wars property correlate to the customer rating of sets for that movie/TV Show?
+3) Could I find the Star Wars set that has the most pieces, and then find the top 10 most common parts in that set.
 
-This project reads in data, cleans up and merges data where necessary, then saves the resulting data to a .csv file. The resulting file is then used to create a Tableau dashboard.
+This project reads in data, cleans up and merges data where necessary, then saves the resulting data to a .csv files. The resulting files are then used to create a Tableau dashboard.
 
 # Data used in Untitled Lego Project
-Data sources: 
+Sources: 
 1) [Star Wars IP Google Sheet](https://docs.google.com/spreadsheets/d/1xw7y9yawF6i35BTfP9M1uUawJvwpacz01Xq4MEZszBs/edit#gid=0)
 - IP Title, Is_Movie, Is_TV, Release Year, Rotten Tomato rating
 2) [Brickset](https://brickset.com/) via  API
@@ -18,33 +18,47 @@ Data sources:
 - Set Number, Inventory ID, Part Number, Quantity of parts. 
 
 
-# System Requirements
+# Requirements
 - Python v3.10.1
 - pandas v1.4.2
 - requests 2.271.1
-- Jupyter Notebook
+- notebook 6.4.12
+- Pillow 9.2.0
+- Bricket and  Rebrickable API keys
 - Active internet connection
+
   
    
 # Instructions 
+## API Keys
+
+### Rebrickable
+1. Make an account at [Rebrickable](https://rebrickable.com) 
+2. Follow the steps on the [Rebrickable API page](https://rebrickable.com/api/) to generate a personal key
+### Brickset
+1. Make an account at [Brickset](https://brickset.com/)
+2. Follow the steps on the [Brickset API page](https://brickset.com/tools/webservices/requestkey) to generate a personal key
+
+### 
+## Installation and Setup
+
 From the command line:
 1) Clone the [Untitled Lego Project](https://github.com/jnsage/LegoProject) repo from GitHub:
 ```
 git clone git@github.com:jnsage/LegoProject.git
 ```
 2) Navigate to the Untitled Lego Project directory.
-
 3) Create and a virtual environment 
 ```
 python -m venv venv
 ```
 4) Activate your environment 
 
-Windows:
+- Windows:
 ```
  . venv/Scripts/activate
 ```
- Mac/Linux:
+-  Mac/Linux:
 ```
 source venv/bin/activate
 ```
@@ -52,14 +66,25 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-6) Launch Jupyter Notebook:
+6) From File Explorer/Finder, navigate to the LegoProject directory and open the 'Keys' folder
+7) Open 'rebrickable.txt' and replace 'REBRICKABLEAPIKEY' with your Rebrickable API key. Save and close 'rebrickable.txt'
+8) Open 'brickset.txt' and replace 'BRICKSETAPIKEY' with your Brickset API key. Save and close 'brickset.txt'
+
+## Run notebooks
+9) From the command line, launch Jupyter Notebook:
 ```
 jupyter notebook
 ``` 
 
-7) Open the Notebooks Folder and run each notebook to see the steps for importing, manipulating, and saving the data to then be used in data visualization
+10) Run the following notebooks to see the steps for importing, manipulating, and saving the data to be user later
+```
+NumPiecesRating.ipynb
+IPRatings.ipynb
+TopTenParts.ipynb
+```
 
-8) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jnsage/viz/)
+## Open Visualizations
+11) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jnsage/viz/)
 
 
 # Code Louisville Project Requirements
