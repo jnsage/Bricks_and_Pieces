@@ -20,3 +20,5 @@ def resize_files(directory: str):
             im.save(filename.path)
             
 
+if __name__ == "__main__":
+    main()      
