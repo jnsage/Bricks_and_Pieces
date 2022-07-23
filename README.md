@@ -52,10 +52,12 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-6) Run the data cleaning scripts:
+6) Launch Jupyter Notebook:
 ```
-python [unnamed main script].py
+jupyter notebook
 ``` 
+
+7) Open the Notebooks Folder and run each notebook to see the steps for importing, manipulating, and saving the data to then be used in data visualization
 
 7) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jnsage/viz/)
 
