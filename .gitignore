@@ -130,15 +130,11 @@ dmypy.json
 .pyre/
 
 #Custom
-keys.py
-rebrick.py
-brickset.py
-set_list.csv
-sw_set_list.csv
 share/
 *.jpg
 /GZIPS
-/JPGs
-top_ten_parts_copy.csv
+keys.txt
 TopTenParts copy.ipynb
-CSV/url_list.csv
+star_wars_set_list.csv
+theme_sample_set_list.csv
+top_ten_parts.csv
