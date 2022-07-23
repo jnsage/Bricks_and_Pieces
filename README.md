@@ -59,7 +59,7 @@ jupyter notebook
 
 7) Open the Notebooks Folder and run each notebook to see the steps for importing, manipulating, and saving the data to then be used in data visualization
 
-7) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jnsage/viz/)
+8) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jnsage/viz/)
 
 
 # Code Louisville Project Requirements
