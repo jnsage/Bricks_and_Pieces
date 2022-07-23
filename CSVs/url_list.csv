@@ -1,12 +1,13 @@
-,part_num,URL
-0,2780,https://cdn.rebrickable.com/media/parts/elements/4121715.jpg
-1,3023,https://cdn.rebrickable.com/media/parts/elements/4211063.jpg
-2,32123b,https://cdn.rebrickable.com/media/parts/elements/6271165.jpg
-3,3795,https://cdn.rebrickable.com/media/parts/elements/4211002.jpg
-4,6141,https://cdn.rebrickable.com/media/parts/elements/3005740.jpg
-5,2780,https://cdn.rebrickable.com/media/parts/elements/4121715.jpg
-6,3023,https://cdn.rebrickable.com/media/parts/elements/4211063.jpg
-7,32123b,https://cdn.rebrickable.com/media/parts/elements/6271165.jpg
-8,3705,https://cdn.rebrickable.com/media/parts/elements/370526.jpg
-9,3795,https://cdn.rebrickable.com/media/parts/elements/4211002.jpg
-10,6141,https://cdn.rebrickable.com/media/parts/elements/3005740.jpg
+,inventory_id,set_num,part_num,color_id,quantity,name,year,theme_id,num_parts,URL
+0,19670,75192-1,15573,72,75,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/6092572.jpg
+1,19670,75192-1,15712,72,139,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/6071226.jpg
+2,19670,75192-1,2412b,0,102,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/241226.jpg
+3,19670,75192-1,2780,0,269,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4121715.jpg
+4,19670,75192-1,3021,71,105,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4211396.jpg
+5,19670,75192-1,3023,71,73,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4211398.jpg
+6,19670,75192-1,3023,71,73,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4528604.jpg
+7,19670,75192-1,3023,28,243,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4211398.jpg
+8,19670,75192-1,3023,28,243,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4528604.jpg
+9,19670,75192-1,32054,71,75,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4211865.jpg
+10,19670,75192-1,3710,72,72,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4211001.jpg
+11,19670,75192-1,6558,1,139,Millennium Falcon,2017.0,171.0,7541.0,https://cdn.rebrickable.com/media/parts/elements/4514553.jpg

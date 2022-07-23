@@ -1,6 +1,7 @@
 # Helper script for functions that may be used across 2 or more notebooks
 
 import pandas as pd
+from pathlib import Path
 
 # List of columns to drop. Columns are not used in this project. Used in NumPiecesRating and IPRatings
 def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -40,4 +41,12 @@ def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
                 'LEGOCom.DE.dateLastAvailable'
                 ]
     df.drop(columns=drop_list, inplace=True)
+
+# Write a file to the CSV folder
+def write_csv(file: str):
+    parent_path = Path.cwd().parent.absolute()
+    csv_folder = Path('CSVs')
+    large_path = Path.joinpath(parent_path,csv_folder,file).absolute()
+    return large_path
+
 
