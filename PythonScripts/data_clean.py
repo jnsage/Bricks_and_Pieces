@@ -44,9 +44,9 @@ def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 # Write a file to the CSV folder
 def csv_path(file: str):
-   parent_path = Path.cwd().absolute()
+   cwd = Path.cwd().absolute()
    csv_folder = Path('CSVs')
-   large_path = Path.joinpath(parent_path,csv_folder,file).absolute()
+   large_path = Path.joinpath(cwd,csv_folder,file).absolute()
    return large_path
 
 

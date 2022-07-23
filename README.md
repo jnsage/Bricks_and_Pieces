@@ -62,7 +62,7 @@ python -m venv venv
 ```
 source venv/bin/activate
 ```
-5) Use pip to install system requirements:
+5) Use pip to install system requirements, this may take a few minutes:
 ```
 pip install -r requirements.txt
 ```
@@ -84,7 +84,7 @@ TopTenParts.ipynb
 ```
 
 ## Open Visualizations
-11) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jnsage/viz/)
+8) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jnsage/viz/)
 
 
 # Code Louisville Project Requirements
