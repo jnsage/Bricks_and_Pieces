@@ -6,9 +6,9 @@ from pathlib import Path
 
 # Define the JPG Path
 def jpg_path():
-   parent_path = Path.cwd().absolute()
+   cwd = Path.cwd().absolute()
    csv_folder = Path('JPGs')
-   path = Path.joinpath(parent_path,csv_folder).absolute()
+   path = Path.joinpath(cwd,csv_folder).absolute()
    return path
 
 

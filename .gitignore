@@ -131,7 +131,6 @@ dmypy.json
 
 #Custom
 share/
-*.jpg
 /GZIPS
 keys.txt
 star_wars_set_list.csv
