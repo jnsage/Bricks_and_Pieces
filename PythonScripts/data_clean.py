@@ -38,7 +38,10 @@ def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
                 'minifigs',
                 'LEGOCom.DE.retailPrice',
                 'LEGOCom.DE.dateFirstAvailable',
-                'LEGOCom.DE.dateLastAvailable'
+                'LEGOCom.DE.dateLastAvailable',
+                'ageRange.min',
+                'ageRange.max',
+                'themeGroup'
                 ]
     df.drop(columns=drop_list, inplace=True)
 
