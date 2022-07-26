@@ -14,7 +14,7 @@ Sources:
 - IP Title, Is_Movie, Is_TV, Release Year, Rotten Tomato rating
 2) [Brickset](https://brickset.com/) via  API
 - Set Number, Set Name, Release Year, Theme, Theme Group, Subtheme, Number of Pieces, and Brickset Rating
-3) [Rebrickable](https://rebrickable.com) via .csv download 
+3) [Rebrickable](https://rebrickable.com/downloads/) via .csv download 
 - Set Number, Inventory ID, Part Number, Quantity of parts. 
 
 
@@ -23,18 +23,14 @@ Sources:
 - pandas v1.4.2
 - requests v2.271.1
 - notebook v6.4.12
-- Bricket and  Rebrickable API keys
+- Bricket API Key
 - Active internet connection
 
   
    
 # Instructions 
-## API Keys
+## Brickset API Key
 
-### Rebrickable
-1. Make an account at [Rebrickable](https://rebrickable.com) 
-2. Follow the steps on the [Rebrickable API page](https://rebrickable.com/api/) to generate a personal key
-### Brickset
 1. Make an account at [Brickset](https://brickset.com/)
 2. Follow the steps on the [Brickset API page](https://brickset.com/tools/webservices/requestkey) to generate a personal key
 
@@ -66,16 +62,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 6) From File Explorer/Finder, navigate to the Bricks_and_Pieces directory and open the 'Keys' folder
-7) Open 'rebrickable.txt' and replace 'REBRICKABLEAPIKEY' with your Rebrickable API key. Save and close 'rebrickable.txt'
-8) Open 'brickset.txt' and replace 'BRICKSETAPIKEY' with your Brickset API key. Save and close 'brickset.txt'
+
+7) Open 'brickset.txt' and replace 'BRICKSETAPIKEY' with your Brickset API key. Save and close 'brickset.txt'
 
 ## Run notebooks
-9) From the command line, launch Jupyter Notebook:
+8) From the command line, launch Jupyter Notebook:
 ```
 jupyter notebook
 ``` 
 
-10) Run the following notebooks to see the steps for importing, manipulating, and saving the data to be user later
+9) Run the following notebooks to see the steps for importing, manipulating, and saving the data to be user later
 ```
 NumPiecesRating.ipynb
 IPRatings.ipynb
@@ -83,7 +79,7 @@ TopTenParts.ipynb
 ```
 
 ## Visualizations
-11) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jared.sage)
+10) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jared.sage)
 
 
 # Code Louisville Project Requirements
