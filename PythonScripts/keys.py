@@ -18,3 +18,5 @@ KEY_ONE = get_file_contents('rebrickable.txt')
 #Key for Brickset API
 KEY_TWO = get_file_contents('brickset.txt')
 
+if __name__ == "__main__":
+    main()      
