@@ -43,7 +43,7 @@ From the command line:
 git clone git@github.com:jnsage/Bricks_and_Pieces.git
 ```
 2) Navigate to the Bricks_and_Pieces directory.
-3) Create and a virtual environment 
+3) Create a virtual environment 
 ```
 python -m venv venv
 ```
@@ -79,7 +79,7 @@ TopTenParts.ipynb
 ```
 
 ## Visualizations
-10) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jared.sage)
+10) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jared.sage/viz/BricksandPieces/BricksandPieces)
 
 
 # Code Louisville Project Requirements
@@ -88,11 +88,13 @@ TopTenParts.ipynb
     - Read two data files 
 - Category 2 - Clean Data
     - Clean data and perform a pandas merge on two datasets. Then calculate a new value based on the new data set
+        - New value calculation in IPRatings.ipynb
 - Category 3 - Present Data
     - Make a Tableau Dashboard to display data
 - Category 4 - Best Practices
     - Utilize a virtual environment and include instructions in the README on how to set one up.
     - Lists dependencies in a requirement.txt file.
+- Category 5 - Annotate your code with markdown cells in Jupyter Notebook, write clear code comments, and have a well-written README.md. 
 
 # Changes from Proposal
 - Original question of examining possible relationship between Brickset rating and the age ratings for LEGO sets was eliminated. There were too many missing values for the minimum and maximum age ranges of LEGO sets.
