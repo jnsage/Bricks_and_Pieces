@@ -1,9 +1,13 @@
+# This is a work in progress script. It was used to download images for the parts from TopTenParts.ipynb.
+# Currently being refactored to work cross-platform. 
+# Not to be considered a part of the final Code Louisville project
+
 # Resize all files in JPGs folder to be max size for Tableau
 import os
 import requests
 from PIL import Image
 from pathlib import Path
-import pandas as pd
+
 
 # Define the JPG Path
 def jpg_path():

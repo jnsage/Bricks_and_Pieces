@@ -3,7 +3,7 @@
 As a collector of LEGO sets, I am interested in examining data pulled from 2 LEGO Collection websites: Brickset and Rebrickable. I wanted to explore these questions:
 
 1) Does a higher number of pieces in a LEGO set guarantee a higher user rating on Brickset?
-2) For Star Wars-themed LEGO sets, does the popularity of a Star Wars title relate to the customer rating of sets for that title
+2) For Star Wars-themed LEGO sets, does the popularity of a Star Wars title relate to the customer rating of sets for that title?
 3) Could I find the Star Wars set that has the most pieces, and then find the top 10 most common parts in that set?
 
 This project reads in data, cleans up and merges data where necessary, then saves the resulting data to a .csv files. The resulting files are then used to create a Tableau dashboard.
@@ -23,7 +23,7 @@ Sources:
 - pandas v1.4.2
 - requests v2.271.1
 - notebook v6.4.12
-- Bricket API Key
+- Brickset API Key
 - Active internet connection
 
   
@@ -42,7 +42,7 @@ From the command line:
 ```
 git clone git@github.com:jnsage/Bricks_and_Pieces.git
 ```
-2) Navigate to the Bricks_and_Pieces directory.
+2) Navigate to the Bricks_and_Pieces directory
 3) Create a virtual environment 
 ```
 python -m venv venv
@@ -79,7 +79,7 @@ TopTenParts.ipynb
 ```
 
 ## Visualizations
-10) View the visualzations based on the clean data on [My Tableau Public page](https://public.tableau.com/app/profile/jared.sage/viz/BricksandPieces/BricksandPieces)
+10) View the visualzations based on the clean data on my [Tableau Public page](https://public.tableau.com/app/profile/jared.sage/viz/BricksandPieces/BricksandPieces).
 
 
 # Code Louisville Project Requirements

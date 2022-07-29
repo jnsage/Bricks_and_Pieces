@@ -1,4 +1,4 @@
-# Helper script for functions that may be used across 2 or more notebooks
+# Helper functions that may be used across 2 or more notebooks in this project. 
 
 import pandas as pd
 from pathlib import Path
@@ -45,7 +45,7 @@ def drop_columns(df: pd.DataFrame) -> pd.DataFrame:
                 ]
     df.drop(columns=drop_list, inplace=True)
 
-# Write a file to the CSV folder
+# Generate a path to the CSVs folder of this repo. Path then used to save .csv files
 def csv_path(file: str):
    cwd = Path.cwd().absolute()
    csv_folder = Path('CSVs')
