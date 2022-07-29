@@ -71,12 +71,13 @@ pip install -r requirements.txt
 jupyter notebook
 ``` 
 
-9) Run the following notebooks to see the steps for importing, manipulating, and saving the data to be user later
+9) Run the following notebooks step by step to see the steps for importing, manipulating, and saving the data to be user later.
 ```
 NumPiecesRating.ipynb
 IPRatings.ipynb
 TopTenParts.ipynb
 ```
+Click a cell and click "Run" or highlight a cell and click "shift+enter.
 
 ## Visualizations
 10) View the visualzations based on the clean data on my [Tableau Public page](https://public.tableau.com/app/profile/jared.sage/viz/BricksandPieces/BricksandPieces).
