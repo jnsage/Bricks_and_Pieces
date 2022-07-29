@@ -24,6 +24,7 @@ Sources:
 - requests v2.271.1
 - notebook v6.4.12
 - Brickset API Key
+- 315 MB free disk
 - Active internet connection
 
   
