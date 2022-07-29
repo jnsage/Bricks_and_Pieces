@@ -57,7 +57,7 @@ python -m venv venv
 ```
 source venv/bin/activate
 ```
-5) Use pip to install system requirements, this may take a few minutes:
+5) Use pip to install system requirements. This may take several minutes:
 ```
 pip install -r requirements.txt
 ```
